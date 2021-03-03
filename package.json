@@ -1,0 +1,29 @@
+{
+  "name": "thebot",
+  "version": "1.0.0",
+  "description": "NoobstersBot is the bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfinityZ25/TheBot.git"
+  },
+  "author": "jcedeno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InfinityZ25/TheBot/issues"
+  },
+  "homepage": "https://github.com/InfinityZ25/TheBot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mineflayer": "^3.2.0",
+    "prismarine-viewer": "^1.15.1",
+    "requestify": "^0.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
