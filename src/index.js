@@ -109,7 +109,6 @@ bot.on("chat", function (username, message) {
     }
     return;
   }
-  bot.chat(message);
 });
 
 bot.on("mount", () => {
