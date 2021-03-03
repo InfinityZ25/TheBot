@@ -19,7 +19,10 @@ bot.once("spawn", () => {
   setInterval(watchTarget, 50);
 
   function watchTarget() {
-    if (!target) return;
+    if (!target) {
+      entity = bot.nearestEntity();
+      return;
+    }
     bot.lookAt(target.position.offset(0, target.height, 0));
   }
 });
