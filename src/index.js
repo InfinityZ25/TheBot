@@ -34,8 +34,8 @@ bot.on("chat", function (username, message) {
     target = bot.players[username].entity;
     let entity;
     //Parse out the ! and split into different arguments.
-    var commandArgs = message.substring(1).split(" ");
-    switch (commandArgs[0].toLowerCase()) {
+    var commandArgs = message.substring(1);
+    switch (commandArgs.toLowerCase()) {
       case "forward":
         bot.setControlState("forward", true);
         break;
